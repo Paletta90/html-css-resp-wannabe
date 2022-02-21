@@ -29,4 +29,7 @@
         margin-top: 20px;
         width: 100%;
     }
+    #steps .row{
+        background-color: #f2f2cd;
+    }
 }
