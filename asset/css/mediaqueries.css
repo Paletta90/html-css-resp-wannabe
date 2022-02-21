@@ -1,0 +1,12 @@
+@media screen and (max-width: 424px) {
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+    width: 100%;
+    float: left;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+  }
+}
