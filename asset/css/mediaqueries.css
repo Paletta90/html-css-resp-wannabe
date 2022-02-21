@@ -1,12 +1,29 @@
 @media screen and (max-width: 424px) {
     #lezioni .row>.left,
     #lezioni .row>.right{
-    width: 100%;
-    float: left;
+        width: 100%;
+        float: left;
   }
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    width: 100%;
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
   }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    #steps .row>.left,
+    #steps .row>.central{
+        width: calc(50% - 10px);
+  }
+    #steps .row>.left{
+        margin-right: 5px;
+    }
+    #steps .row>.central{
+        margin-left: 5px;
+    }
+    #steps .row>.right{
+        margin-top: 20px;
+        width: 100%;
+    }
 }
